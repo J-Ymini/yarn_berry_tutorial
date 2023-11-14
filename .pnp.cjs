@@ -26,6 +26,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/lodash", "npm:4.14.201"],\
           ["@types/react", "npm:18.2.37"],\
           ["@types/react-dom", "npm:18.2.15"],\
           ["@typescript-eslint/eslint-plugin", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:6.10.0"],\
@@ -34,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.53.0"],\
           ["eslint-plugin-react-hooks", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:0.4.4"],\
+          ["lodash", "npm:4.17.21"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
@@ -854,6 +856,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-json-schema-npm-7.0.15-fd16381786-a996a745e6.zip/node_modules/@types/json-schema/",\
         "packageDependencies": [\
           ["@types/json-schema", "npm:7.0.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/lodash", [\
+      ["npm:4.14.201", {\
+        "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.201-0c286bbc0c-14dc437872.zip/node_modules/@types/lodash/",\
+        "packageDependencies": [\
+          ["@types/lodash", "npm:4.14.201"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2385,6 +2396,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lodash", [\
+      ["npm:4.17.21", {\
+        "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-d8cbea072b.zip/node_modules/lodash/",\
+        "packageDependencies": [\
+          ["lodash", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lodash.merge", [\
       ["npm:4.6.2", {\
         "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-402fa16a1e.zip/node_modules/lodash.merge/",\
@@ -3417,6 +3437,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["yarn_berry_tutorial", "workspace:."],\
+          ["@types/lodash", "npm:4.14.201"],\
           ["@types/react", "npm:18.2.37"],\
           ["@types/react-dom", "npm:18.2.15"],\
           ["@typescript-eslint/eslint-plugin", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:6.10.0"],\
@@ -3425,6 +3446,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.53.0"],\
           ["eslint-plugin-react-hooks", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:0.4.4"],\
+          ["lodash", "npm:4.17.21"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:b0b2b65001723a2b83a967edf986e3fd62bcf97250bf8b375cc8d42b43f42150c80b22b41470dc041e40a550bbfc48af3c199aba6fbd12fdc4d02fea1edb4491#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\

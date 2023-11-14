@@ -2,9 +2,13 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
+import _ from 'lodash';
 
 function App() {
   const [count, setCount] = useState(0);
+  const testArray = [1, 2, 3, 4, 5];
+  const getFirstElement = _.first(testArray);
+  console.log(getFirstElement);
 
   return (
     <>
