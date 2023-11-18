@@ -2,6 +2,8 @@ name: Deploy with Vercel
 run-name: Deploy caused by ${{ github.actor }}
 on:
   push:
+    branches:
+      - main
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
